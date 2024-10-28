@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment_book_titles"
+        android:name="id.ac.polbeng.nurifdayanti.fragmentexample1.BookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/book_titles" />
+
+    <fragment
+        android:id="@+id/fragment_book_description"
+        android:name="id.ac.polbeng.nurifdayanti.fragmentexample1.BookDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:layout="@layout/book_description" />
+</LinearLayout>
